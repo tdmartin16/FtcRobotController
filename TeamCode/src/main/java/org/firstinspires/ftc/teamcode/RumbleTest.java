@@ -21,7 +21,7 @@ public class RumbleTest extends OpMode {
 
     @Override
     public void loop() {
-        if (endGameStart > = getRuntime() && !isEndGame) {
+        if (endGameStart > getRuntime() && !isEndGame) {
             gamepad1.rumbleBlips(3);
             isEndGame = true;
         }
